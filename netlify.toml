@@ -6,3 +6,7 @@
   from = "/api/*"
   status = 200
   to = "/.netlify/functions/api/:splat"
+
+[[edge_functions]]
+function = "hello"
+path = "/test"
